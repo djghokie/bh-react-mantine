@@ -1,0 +1,12 @@
+{
+  "name": "bh-react-mantine",
+  "packageManager": "yarn@4.9.1",
+  "peerDependencies": {
+    "@mantine/core": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0"
+  }
+}
