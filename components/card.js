@@ -16,7 +16,7 @@ export function CardTitle({ title }) {
 
 export function SimpleCard({ title, children, ...props }) {
     return (
-        <Card>
+        <Card {...props}>
           <CardTitle title={title} />
           
           <Card.Section p="md">
